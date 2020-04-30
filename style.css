@@ -1,0 +1,76 @@
+
+* {
+  color: rgb(119, 177, 169);
+}
+
+body {
+  background-color: rgb(119, 177, 169);
+}
+
+.blockquote {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%,-50%);
+  border-style: none;
+  padding: 5% 2%;
+  background-color: white;
+  border-radius: 2%;
+}
+
+i {
+  font-size: 150%;
+}
+
+h2 {
+  display: inline;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+}
+
+p {
+  font-size: 14px;
+  position: absolute;
+  right: 15%;
+  bottom: 5%;
+}
+
+.click {
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+.click:hover {
+  opacity: 1;
+}
+
+button {
+  position: absolute;
+  left: 50%;
+  top: 66%;
+  transform: translate(-50%,-50%);
+  font-size: 25px;
+  margin: 0 auto;
+  border-radius: 2%;
+  border: none;
+}
+
+
+
+.contact {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  transform: translate(-50%, 0%);
+  display: inline-block;
+}
+
+.contact i {
+  margin: 0 35px;
+  font-size: 35px;
+  color: white;
+}
